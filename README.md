@@ -37,4 +37,4 @@ Facilitar o agendamento de uso das máquinas de lavar e secar roupas em um condo
 ---
 
 ## 📩 Contato
-Se tiver dúvidas ou sugestões, entre em contato pelo [LinkedIn](link-do-seu-linkedin) ou [E-mail](mailto:seu-email@example.com).
+Se tiver dúvidas ou sugestões, entre em contato pelo [LinkedIn](https://www.linkedin.com/in/janailson-f-silva-45878272?) ou [E-mail](mailto:janailsonfsilva2@gmail.com).
