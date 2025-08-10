@@ -2,7 +2,7 @@
 # 🧺 Sistema de Agendamento de Lavanderia
 
 ## 🎯 Objetivo
-Facilitar o agendamento de uso das máquinas de lavar e secar roupas em um condomínio, evitando conflitos de horários e melhorando a organização.
+Facilitar o agendamento do uso das máquinas de lavar e secar roupas em um condomínio, evitando conflitos de horários e melhorando a organização.
 
 ---
 
@@ -10,16 +10,14 @@ Facilitar o agendamento de uso das máquinas de lavar e secar roupas em um condo
 - HTML5
 - CSS3
 - JavaScript
-- PHP
-- MySQL
 
 ---
 
 ## 📚 O que Aprendi
-- Estruturação de banco de dados para controle de reservas.
-- Integração entre front-end e back-end.
 - Criação de tabelas dinâmicas para visualização de agendamentos.
+- Uso do JavaScript para manipular DOM e atualizar dados em tempo real no navegador.
 - Implementação de restrições para evitar reservas duplicadas.
+- Organização de código e boas práticas em HTML, CSS e JavaScript.
 
 ---
 
@@ -30,9 +28,8 @@ Facilitar o agendamento de uso das máquinas de lavar e secar roupas em um condo
 
 ## 📂 Como Executar
 1. Baixar ou clonar este repositório.
-2. Configurar o banco de dados MySQL com o arquivo `.sql` fornecido.
-3. Alterar as configurações de conexão no arquivo `config.php`.
-4. Abrir o projeto no navegador.
+2. Abrir o arquivo `index.html` no navegador.
+3. Utilizar o sistema para visualizar e realizar agendamentos.
 
 ---
 
