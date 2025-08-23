@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agendamento da Lavanderia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Agenda da Lavanderia</h1>
+  <div class="form">
+    <label>Lavadora:
+      <select id="lavadora">
+        <option>Lavadora 1</option>
+        <option>Lavadora 2</option>
+        <option>Lavadora 3</option>
+      </select>
+    </label>
+    <label>Apartamento: <input type="text" id="morador"></label>
+    <label>Dia:
+      <select id="dia">
+        <option>Domingo</option><option>Segunda</option><option>Terça</option>
+        <option>Quarta</option><option>Quinta</option><option>Sexta</option><option>Sábado</option>
+      </select>
+    </label>
+    <label>Horário:
+      <select id="horario">
+        <option>06h às 09h</option><option>09h às 12h</option><option>12h às 15h</option>
+        <option>15h às 18h</option><option>18h às 21h</option><option>21h às 24h</option>
+      </select>
+    </label>
+    <label>Semana:
+      <select id="semana">
+        <option value="S1">Semana 1</option>
+        <option value="S2">Semana 2</option>
+      </select>
+    </label>
+    <button onclick="agendar()">Agendar</button>
+    <button onclick="limparSemana()">Limpar Semana</button>
+    <button onclick="exportarPDF()">Exportar PDF</button>
+  </div>
+  <h2 id="titulo-semana"></h2>
+  <table>
+    <thead>
+      <tr><th>Horário</th><th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th></tr>
+    </thead>
+    <tbody id="tabela-corpo"></tbody>
+  </table>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
